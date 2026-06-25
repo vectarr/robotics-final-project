@@ -24,6 +24,7 @@ Output layout::
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 import time
 from datetime import datetime
@@ -32,12 +33,15 @@ from typing import Dict, List, Optional
 
 import numpy as np
 
-# 添加当前目录到Python路径
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+# 添加项目根目录到Python路径
+PROJECT_ROOT = str(Path(__file__).resolve().parent)
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
-from controllers.ik_controller import IKController, MAX_STEPS as IK_MAX_STEPS
+# 确保env模块可以被找到
 from env import PROJECT_ROOT_DIR
 from env.franka_env import FrankaEnv
+from controllers.ik_controller import IKController, MAX_STEPS as IK_MAX_STEPS
 
 
 def _collect_one_episode(
