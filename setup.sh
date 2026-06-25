@@ -27,7 +27,24 @@ fi
 echo ""
 echo "[3/4] 安装依赖..."
 pip install --upgrade pip
-pip install numpy torch mujoco
+
+# 检测CUDA版本并安装对应的PyTorch
+echo "检测CUDA版本..."
+CUDA_VERSION=$(nvcc --version 2>/dev/null | grep "release" | awk '{print $6}' | cut -c2-4)
+echo "检测到CUDA版本: $CUDA_VERSION"
+
+if [[ "$CUDA_VERSION" == "11.8" ]]; then
+    echo "安装PyTorch for CUDA 11.8..."
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+elif [[ "$CUDA_VERSION" == "12.1" || "$CUDA_VERSION" == "12.2" || "$CUDA_VERSION" == "12.4" ]]; then
+    echo "安装PyTorch for CUDA 12.x..."
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+else
+    echo "使用默认PyTorch安装..."
+    pip install torch torchvision torchaudio
+fi
+
+pip install numpy mujoco
 
 # 检查MuJoCo
 echo ""
