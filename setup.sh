@@ -44,7 +44,7 @@ else
     pip install torch torchvision torchaudio
 fi
 
-pip install numpy mujoco
+pip install numpy mujoco matplotlib
 
 # 检查MuJoCo
 echo ""

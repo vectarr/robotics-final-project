@@ -24,8 +24,8 @@
 ### 1. 环境配置
 
 ```bash
-# 安装依赖
-pip install mujoco numpy torch
+# 运行配置脚本（自动安装依赖）
+bash setup.sh
 ```
 
 ### 2. 数据采集
@@ -110,6 +110,18 @@ python evaluate.py \
 - `--max_steps`: 每个episode最大步数（默认3000）
 - `--device`: 推理设备
 
+### 6. 生成可视化图表
+
+```bash
+# 生成实验数据的可视化图表
+python visualize.py --data_dir data/20260626_004329
+```
+
+**可视化内容：**
+- 数据采集结果图表（成功率、步数、耗时）
+- 训练结果图表（Loss曲线、学习率）
+- 评估结果图表（成功率、步数和距离）
+
 ## 观测空间
 
 | 索引 | 名称 | 维度 | 说明 |
@@ -131,6 +143,45 @@ python evaluate.py \
 | 4 | grip_cmd | 1 | 夹爪命令（0=闭合，1=打开） |
 
 **动作维度：5**
+
+## 实验数据记录
+
+本项目包含完整的数据记录功能，方便后续撰写实验报告：
+
+### 数据采集阶段输出
+
+| 文件名 | 说明 |
+|--------|------|
+| `collect.log` | 完整的运行日志 |
+| `experiment_data.json` | 详细的实验数据（JSON格式） |
+| `episode_statistics.json` | 统计数据（用于绘图） |
+| `metadata.npz` | 元数据 |
+| `episode_*.npz` | 每个episode的数据 |
+
+### 训练阶段输出
+
+| 文件名 | 说明 |
+|--------|------|
+| `train.log` | 训练日志 |
+| `training_history.json` | 训练历史（loss、学习率等） |
+| `model_best.pt` | 最佳模型权重 |
+
+### 评估阶段输出
+
+| 文件名 | 说明 |
+|--------|------|
+| `evaluate.log` | 评估日志 |
+| `evaluation_results.json` | 详细评估结果 |
+
+### 可视化图表
+
+运行`visualize.py`后会生成以下图表：
+
+| 文件名 | 说明 |
+|--------|------|
+| `collection_results.png` | 数据采集结果图表 |
+| `training_results.png` | 训练结果图表 |
+| `evaluation_results.png` | 评估结果图表 |
 
 ## 常见问题
 

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 import time
 from datetime import datetime
@@ -15,6 +16,79 @@ import torch.nn as nn
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from env import PROJECT_ROOT_DIR
+
+
+class Logger:
+    """同时输出到终端和日志文件"""
+    def __init__(self, log_file):
+        self.terminal = sys.stdout
+        self.log = open(log_file, 'w', encoding='utf-8')
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+        self.log.flush()
+
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+
+class TrainingRecorder:
+    """训练过程记录器"""
+
+    def __init__(self, output_dir: Path):
+        self.output_dir = output_dir
+        self.history = {
+            "train_loss": [],
+            "val_loss": [],
+            "learning_rate": [],
+            "epoch_times": [],
+        }
+        self.config = {}
+        self.start_time = None
+
+    def save_config(self, args, obs_dim, act_dim):
+        """保存训练配置"""
+        self.config = {
+            "data_dir": str(args.data_dir),
+            "epochs": args.epochs,
+            "batch_size": args.batch_size,
+            "learning_rate": args.lr,
+            "weight_decay": args.weight_decay,
+            "device": args.device,
+            "obs_dim": obs_dim,
+            "act_dim": act_dim,
+            "model_architecture": "MLP(256, 128)",
+            "start_time": datetime.now().isoformat(),
+        }
+
+    def record_epoch(self, epoch: int, train_loss: float, val_loss: float,
+                     lr: float, epoch_time: float):
+        """记录单个epoch的数据"""
+        self.history["train_loss"].append(train_loss)
+        self.history["val_loss"].append(val_loss)
+        self.history["learning_rate"].append(lr)
+        self.history["epoch_times"].append(epoch_time)
+
+    def save_history(self):
+        """保存训练历史"""
+        history_path = self.output_dir / "training_history.json"
+        data = {
+            "config": self.config,
+            "history": self.history,
+            "summary": {
+                "total_epochs": len(self.history["train_loss"]),
+                "final_train_loss": self.history["train_loss"][-1] if self.history["train_loss"] else None,
+                "final_val_loss": self.history["val_loss"][-1] if self.history["val_loss"] else None,
+                "best_val_loss": min(self.history["val_loss"]) if self.history["val_loss"] else None,
+                "total_time_seconds": sum(self.history["epoch_times"]),
+                "end_time": datetime.now().isoformat(),
+            }
+        }
+        with open(history_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2)
+        print(f"训练历史已保存到: {history_path}")
 
 
 # ---------------------------------------------------------------------------
@@ -70,6 +144,7 @@ def train_mlp(
     weight_decay,
     device,
     checkpoint_dir,
+    recorder=None,
 ):
     from torch.utils.data import DataLoader, TensorDataset
 
@@ -110,6 +185,8 @@ def train_mlp(
 
     t_start = time.perf_counter()
     for epoch in range(1, epochs + 1):
+        epoch_start = time.perf_counter()
+
         model.train()
         train_loss_sum, batches = 0.0, 0
         for obs_b, act_b in train_loader:
@@ -132,6 +209,13 @@ def train_mlp(
                 val_loss_sum += loss_fn(model(obs_b), act_b).item()
                 v_batches += 1
         val_loss = val_loss_sum / max(v_batches, 1)
+
+        epoch_time = time.perf_counter() - epoch_start
+
+        # Record epoch data
+        if recorder:
+            recorder.record_epoch(epoch, train_loss, val_loss,
+                                 scheduler.get_last_lr()[0], epoch_time)
 
         if val_loss < best_val_loss:
             best_val_loss = val_loss
@@ -211,10 +295,29 @@ def main() -> None:
         output_dir = data_dir / "checkpoints"
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # Setup logger
+    log_file = output_dir / "train.log"
+    sys.stdout = Logger(log_file)
+
+    # Setup recorder
+    recorder = TrainingRecorder(output_dir)
+
     # 加载数据
     train_data, val_data = load_dataset_flat(data_dir)
+    obs_dim = train_data[0].shape[1]
+    act_dim = train_data[1].shape[1]
+    recorder.save_config(args, obs_dim, act_dim)
 
     # 训练
+    print(f"\nStarting training...")
+    print(f"  Data directory: {data_dir}")
+    print(f"  Output directory: {output_dir}")
+    print(f"  Epochs: {args.epochs}")
+    print(f"  Batch size: {args.batch_size}")
+    print(f"  Learning rate: {args.lr}")
+    print(f"  Device: {args.device}")
+    print()
+
     model = train_mlp(
         train_data,
         val_data,
@@ -224,9 +327,15 @@ def main() -> None:
         weight_decay=args.weight_decay,
         device=args.device,
         checkpoint_dir=output_dir,
+        recorder=recorder,
     )
 
+    # Save training history
+    recorder.save_history()
+
     print(f"\nTraining complete. Model saved to {output_dir / 'model_best.pt'}")
+    print(f"Training history saved to {output_dir / 'training_history.json'}")
+    print(f"Log file saved to {log_file}")
 
 
 if __name__ == "__main__":

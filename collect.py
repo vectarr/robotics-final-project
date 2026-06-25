@@ -24,6 +24,7 @@ Output layout::
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import sys
 import time
@@ -42,6 +43,112 @@ if PROJECT_ROOT not in sys.path:
 from env import PROJECT_ROOT_DIR
 from env.franka_env import FrankaEnv
 from controllers.ik_controller import IKController, MAX_STEPS as IK_MAX_STEPS
+
+
+class Logger:
+    """同时输出到终端和日志文件"""
+    def __init__(self, log_file):
+        self.terminal = sys.stdout
+        self.log = open(log_file, 'w', encoding='utf-8')
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+        self.log.flush()
+
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+
+class ExperimentRecorder:
+    """实验数据记录器，用于保存详细的实验数据供后续分析和报告使用"""
+
+    def __init__(self, output_dir: Path):
+        self.output_dir = output_dir
+        self.experiment_data = {
+            "start_time": datetime.now().isoformat(),
+            "config": {},
+            "episodes": [],
+            "summary": {}
+        }
+
+    def save_config(self, args):
+        """保存实验配置"""
+        self.experiment_data["config"] = {
+            "episodes": args.episodes,
+            "randomize_block": args.rand,
+            "seed": args.seed,
+            "output_dir": str(args.out),
+            "max_steps": MAX_STEPS,
+        }
+
+    def record_episode(self, ep_idx: int, success: bool, steps: int,
+                       block_pos: np.ndarray, target_pos: np.ndarray,
+                       episode_time: float):
+        """记录单个episode的数据"""
+        episode_data = {
+            "episode": ep_idx,
+            "success": bool(success),
+            "steps": int(steps),
+            "block_position": block_pos.tolist() if block_pos is not None else None,
+            "target_position": target_pos.tolist() if target_pos is not None else None,
+            "duration_seconds": round(episode_time, 3),
+        }
+        self.experiment_data["episodes"].append(episode_data)
+
+    def save_summary(self, success_count: int, fail_count: int,
+                     total_steps: int, elapsed: float):
+        """保存实验总结"""
+        self.experiment_data["summary"] = {
+            "total_episodes": success_count + fail_count,
+            "successful_episodes": success_count,
+            "failed_episodes": fail_count,
+            "success_rate": round(success_count / max(success_count + fail_count, 1), 4),
+            "total_steps": total_steps,
+            "avg_steps_per_episode": round(total_steps / max(success_count, 1), 1),
+            "total_time_seconds": round(elapsed, 2),
+            "episodes_per_second": round(success_count / max(elapsed, 0.01), 2),
+            "end_time": datetime.now().isoformat(),
+        }
+
+    def save_to_json(self):
+        """保存完整的实验数据到JSON文件"""
+        json_path = self.output_dir / "experiment_data.json"
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(self.experiment_data, f, indent=2, ensure_ascii=False)
+        print(f"实验数据已保存到: {json_path}")
+
+    def save_episode_statistics(self):
+        """保存episode统计信息，方便后续绘图"""
+        episodes = self.experiment_data["episodes"]
+        if not episodes:
+            return
+
+        # 提取统计数据
+        successes = [ep["success"] for ep in episodes]
+        steps = [ep["steps"] for ep in episodes]
+        durations = [ep["duration_seconds"] for ep in episodes]
+
+        # 计算累积成功率
+        cumulative_success = []
+        success_count = 0
+        for i, success in enumerate(successes):
+            success_count += int(success)
+            cumulative_success.append(success_count / (i + 1))
+
+        stats = {
+            "episode_indices": list(range(len(episodes))),
+            "successes": successes,
+            "steps": steps,
+            "durations": durations,
+            "cumulative_success_rate": cumulative_success,
+        }
+
+        stats_path = self.output_dir / "episode_statistics.json"
+        with open(stats_path, 'w', encoding='utf-8') as f:
+            json.dump(stats, f, indent=2)
+        print(f"统计数据已保存到: {stats_path}")
 
 
 def _collect_one_episode(
@@ -157,6 +264,16 @@ def main() -> None:
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         out_dir = Path(PROJECT_ROOT_DIR) / "data" / ts
     out_dir.mkdir(parents=True, exist_ok=True)
+
+    # ---- setup logger ----------------------------------------------------
+    log_file = out_dir / "collect.log"
+    sys.stdout = Logger(log_file)
+
+    # ---- setup recorder --------------------------------------------------
+    recorder = ExperimentRecorder(out_dir)
+    recorder.save_config(args)
+
+    print(f"Log file: {log_file}")
     print(f"Output directory: {out_dir}")
 
     # ---- environment & controller ---------------------------------------
@@ -177,14 +294,17 @@ def main() -> None:
     }
 
     for ep in range(args.episodes):
+        ep_start_time = time.perf_counter()
         env.reset()
         controller = IKController(env)
 
         data = _collect_one_episode(env, controller)
+        ep_elapsed = time.perf_counter() - ep_start_time
 
         if data is None:
             fail_count += 1
             status = "✗"
+            recorder.record_episode(ep, False, 0, None, None, ep_elapsed)
         else:
             success_count += 1
             total_steps += len(data["observations"])
@@ -194,12 +314,18 @@ def main() -> None:
             np.savez_compressed(ep_path, **data)
 
             # Track metadata
+            block_pos = data["observations"][0, 11:14]
+            target_pos = data["observations"][0, 14:17]
             metadata["episode"].append(ep)
             metadata["success"].append(1)
             metadata["steps"].append(len(data["observations"]))
-            metadata["block_init_pos"].append(data["observations"][0, 11:14])
-            metadata["target_pos"].append(data["observations"][0, 14:17])
+            metadata["block_init_pos"].append(block_pos)
+            metadata["target_pos"].append(target_pos)
             status = "✓"
+
+            # Record episode data
+            recorder.record_episode(ep, True, len(data["observations"]),
+                                   block_pos, target_pos, ep_elapsed)
 
         elapsed = time.perf_counter() - start_time
         rate = (ep + 1) / elapsed if elapsed > 0 else 0.0
@@ -208,7 +334,8 @@ def main() -> None:
             f"  [{ep+1:4d}/{args.episodes}] {status}  "
             f"steps={n_steps:4d}  "
             f"success={success_count}  fail={fail_count}  "
-            f"{rate:.1f} ep/s",
+            f"{rate:.1f} ep/s  "
+            f"time={ep_elapsed:.1f}s",
             flush=True,
         )
 
@@ -224,6 +351,11 @@ def main() -> None:
         target_pos=np.array(metadata["target_pos"], dtype=np.float32),
     )
 
+    # ---- save experiment data --------------------------------------------
+    recorder.save_summary(success_count, fail_count, total_steps, elapsed)
+    recorder.save_to_json()
+    recorder.save_episode_statistics()
+
     # ---- summary ---------------------------------------------------------
     print()
     print("=" * 60)
@@ -238,6 +370,13 @@ def main() -> None:
     print(f"  Episodes/second:     {success_count / elapsed:.2f}")
     print(f"  Output directory:    {out_dir}")
     print("=" * 60)
+    print()
+    print("生成的文件:")
+    print(f"  - collect.log: 完整的运行日志")
+    print(f"  - experiment_data.json: 详细的实验数据")
+    print(f"  - episode_statistics.json: 统计数据（用于绘图）")
+    print(f"  - metadata.npz: 元数据")
+    print(f"  - episode_*.npz: 每个episode的数据")
 
 
 if __name__ == "__main__":
