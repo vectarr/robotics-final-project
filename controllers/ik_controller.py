@@ -14,6 +14,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from env.franka_env import FrankaEnv
 from .base_controller import BaseController
 
+# 最大步数（所有阶段步数之和）
+MAX_STEPS = 5600  # 800+800+600+800+1500+600+500
+
 
 class Stage(Enum):
     """Pick-and-place task stages."""
