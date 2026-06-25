@@ -102,11 +102,16 @@ def load_model(model_path: Path, obs_dim: int, act_dim: int, device: str) -> tor
     """加载训练好的MLP模型。"""
     # 定义模型结构（需要与train.py中的模型结构一致）
     model = torch.nn.Sequential(
-        torch.nn.Linear(obs_dim, 256),
+        torch.nn.Linear(obs_dim, 512),
         torch.nn.ReLU(),
+        torch.nn.Dropout(0.1),
+        torch.nn.Linear(512, 256),
+        torch.nn.ReLU(),
+        torch.nn.Dropout(0.1),
         torch.nn.Linear(256, 128),
         torch.nn.ReLU(),
         torch.nn.Linear(128, act_dim),
+        torch.nn.Sigmoid(),  # 输出在[0,1]范围内，适合夹爪动作
     )
     model.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
     model.to(device)

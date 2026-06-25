@@ -165,15 +165,20 @@ def train_mlp(
         pin_memory=(device == "cuda"),
     )
 
-    # 定义MLP模型
+    # 定义MLP模型（更大的网络）
     obs_dim = train_obs.shape[1]
     act_dim = train_act.shape[1]
     model = nn.Sequential(
-        nn.Linear(obs_dim, 256),
+        nn.Linear(obs_dim, 512),
         nn.ReLU(),
+        nn.Dropout(0.1),
+        nn.Linear(512, 256),
+        nn.ReLU(),
+        nn.Dropout(0.1),
         nn.Linear(256, 128),
         nn.ReLU(),
         nn.Linear(128, act_dim),
+        nn.Sigmoid(),  # 输出在[0,1]范围内，适合夹爪动作
     )
     model.to(device)
     model.train()
