@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -9,6 +10,9 @@ from typing import List, Tuple
 import numpy as np
 import torch
 import torch.nn as nn
+
+# 添加当前目录到Python路径
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from env import PROJECT_ROOT_DIR
 

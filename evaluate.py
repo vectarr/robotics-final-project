@@ -8,12 +8,16 @@ Usage::
 from __future__ import annotations
 
 import argparse
+import sys
 import time
 from pathlib import Path
 from typing import Dict, List, Optional
 
 import numpy as np
 import torch
+
+# 添加当前目录到Python路径
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from env import PROJECT_ROOT_DIR
 from env.franka_env import FrankaEnv

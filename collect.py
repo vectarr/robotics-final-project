@@ -24,12 +24,16 @@ Output layout::
 from __future__ import annotations
 
 import argparse
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
 import numpy as np
+
+# 添加当前目录到Python路径
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from controllers.ik_controller import IKController, MAX_STEPS as IK_MAX_STEPS
 from env import PROJECT_ROOT_DIR
