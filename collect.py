@@ -80,7 +80,7 @@ class ExperimentRecorder:
             "randomize_block": args.rand,
             "seed": args.seed,
             "output_dir": str(args.out),
-            "max_steps": MAX_STEPS,
+            "max_steps": IK_MAX_STEPS,
         }
 
     def record_episode(self, ep_idx: int, success: bool, steps: int,
