@@ -160,6 +160,12 @@ def evaluate_one_episode(
         arm_action = action[:4]
         grip_action = action[4] if len(action) > 4 else 0.0
 
+        # 将夹爪动作映射到正确范围
+        # 训练数据中：0=关闭，1=打开
+        # 环境中：grip_cmd >= 200 释放，< 200 保持抓取
+        # 需要将模型输出映射到[0, 1]范围
+        grip_action = np.clip(grip_action, 0.0, 1.0)
+
         env.set_arm_target(arm_action)
         env.set_gripper(grip_action)
         env.step()
