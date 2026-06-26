@@ -1,0 +1,36 @@
+Loaded model from data/20260626_005525/checkpoints/model_best.pt
+Output directory: data/20260626_005525/checkpoints
+
+Running 20 evaluation episodes...
+  [   1/20] ✗  steps=5600  dist=0.3353  time=3.8s
+  [   2/20] ✗  steps=5600  dist=0.3353  time=3.2s
+  [   3/20] ✗  steps=5600  dist=0.3353  time=3.3s
+  [   4/20] ✗  steps=5600  dist=0.3353  time=3.2s
+  [   5/20] ✗  steps=5600  dist=0.3353  time=3.2s
+  [   6/20] ✗  steps=5600  dist=0.3353  time=3.2s
+  [   7/20] ✗  steps=5600  dist=0.3353  time=3.2s
+  [   8/20] ✗  steps=5600  dist=0.3353  time=3.2s
+  [   9/20] ✗  steps=5600  dist=0.3353  time=3.2s
+  [  10/20] ✗  steps=5600  dist=0.3353  time=3.2s
+  [  11/20] ✗  steps=5600  dist=0.3353  time=3.2s
+  [  12/20] ✗  steps=5600  dist=0.3353  time=3.3s
+  [  13/20] ✗  steps=5600  dist=0.3353  time=3.6s
+  [  14/20] ✗  steps=5600  dist=0.3353  time=3.3s
+  [  15/20] ✗  steps=5600  dist=0.3353  time=3.3s
+  [  16/20] ✗  steps=5600  dist=0.3353  time=3.3s
+  [  17/20] ✗  steps=5600  dist=0.3353  time=3.3s
+  [  18/20] ✗  steps=5600  dist=0.3353  time=3.3s
+  [  19/20] ✗  steps=5600  dist=0.3353  time=3.3s
+  [  20/20] ✗  steps=5600  dist=0.3353  time=3.2s
+评估结果已保存到: data/20260626_005525/checkpoints/evaluation_results.json
+
+============================================================
+Evaluation Results
+============================================================
+  Success rate:     0.00% (0/20)
+  Avg steps:        5600.0
+  Avg final dist:   0.3353
+============================================================
+
+Results saved to: data/20260626_005525/checkpoints/evaluation_results.json
+Log file saved to: data/20260626_005525/checkpoints/evaluate.log

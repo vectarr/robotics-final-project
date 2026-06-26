@@ -1,0 +1,38 @@
+Loading 500 episodes from data/20260626_005525 …
+  Total samples: 2,800,000  obs=(2800000, 20)  act=(2800000, 5)
+  Train: 2,520,000  Val: 280,000
+
+Starting training...
+  Data directory: data/20260626_005525
+  Output directory: data/20260626_005525/checkpoints
+  Epochs: 200
+  Batch size: 64
+  Learning rate: 0.001
+  Device: cuda
+
+  epoch    1/200  train_loss=0.002014  val_loss=0.000496  lr=1.00e-03  63.4s
+  epoch   10/200  train_loss=0.000417  val_loss=0.000773  lr=9.94e-04  618.0s
+  epoch   20/200  train_loss=0.000367  val_loss=0.000491  lr=9.76e-04  1237.5s
+  epoch   30/200  train_loss=0.000344  val_loss=0.000648  lr=9.46e-04  1858.4s
+  epoch   40/200  train_loss=0.000323  val_loss=0.000600  lr=9.05e-04  2479.1s
+  epoch   50/200  train_loss=0.000303  val_loss=0.000556  lr=8.54e-04  3100.5s
+  epoch   60/200  train_loss=0.000294  val_loss=0.000659  lr=7.94e-04  3719.1s
+  epoch   70/200  train_loss=0.000280  val_loss=0.000679  lr=7.27e-04  4340.3s
+  epoch   80/200  train_loss=0.000264  val_loss=0.000692  lr=6.55e-04  4957.9s
+  epoch   90/200  train_loss=0.000241  val_loss=0.000664  lr=5.78e-04  5576.2s
+  epoch  100/200  train_loss=0.000227  val_loss=0.000574  lr=5.00e-04  6199.7s
+  epoch  110/200  train_loss=0.000208  val_loss=0.000596  lr=4.22e-04  6825.8s
+  epoch  120/200  train_loss=0.000191  val_loss=0.000594  lr=3.45e-04  7446.0s
+  epoch  130/200  train_loss=0.000177  val_loss=0.000573  lr=2.73e-04  8069.0s
+  epoch  140/200  train_loss=0.000157  val_loss=0.000633  lr=2.06e-04  8694.3s
+  epoch  150/200  train_loss=0.000146  val_loss=0.000570  lr=1.46e-04  9321.5s
+  epoch  160/200  train_loss=0.000132  val_loss=0.000580  lr=9.55e-05  9943.3s
+  epoch  170/200  train_loss=0.000120  val_loss=0.000555  lr=5.45e-05  10567.7s
+  epoch  180/200  train_loss=0.000113  val_loss=0.000564  lr=2.45e-05  11189.3s
+  epoch  190/200  train_loss=0.000107  val_loss=0.000548  lr=6.16e-06  11811.7s
+  epoch  200/200  train_loss=0.000104  val_loss=0.000553  lr=0.00e+00  12434.3s
+训练历史已保存到: data/20260626_005525/checkpoints/training_history.json
+
+Training complete. Model saved to data/20260626_005525/checkpoints/model_best.pt
+Training history saved to data/20260626_005525/checkpoints/training_history.json
+Log file saved to data/20260626_005525/checkpoints/train.log

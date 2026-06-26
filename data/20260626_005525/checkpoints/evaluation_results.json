@@ -1,0 +1,162 @@
+{
+  "config": {
+    "model_path": "data/20260626_005525/checkpoints/model_best.pt",
+    "episodes": 20,
+    "max_steps": 5600,
+    "seed": 42,
+    "device": "cuda",
+    "start_time": "2026-06-26T18:43:06.760995"
+  },
+  "episodes": [
+    {
+      "episode": 0,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.837
+    },
+    {
+      "episode": 1,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.222
+    },
+    {
+      "episode": 2,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.334
+    },
+    {
+      "episode": 3,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.235
+    },
+    {
+      "episode": 4,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.199
+    },
+    {
+      "episode": 5,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.217
+    },
+    {
+      "episode": 6,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.22
+    },
+    {
+      "episode": 7,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.213
+    },
+    {
+      "episode": 8,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.247
+    },
+    {
+      "episode": 9,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.232
+    },
+    {
+      "episode": 10,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.217
+    },
+    {
+      "episode": 11,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.34
+    },
+    {
+      "episode": 12,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.598
+    },
+    {
+      "episode": 13,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.326
+    },
+    {
+      "episode": 14,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.317
+    },
+    {
+      "episode": 15,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.347
+    },
+    {
+      "episode": 16,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.339
+    },
+    {
+      "episode": 17,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.319
+    },
+    {
+      "episode": 18,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.341
+    },
+    {
+      "episode": 19,
+      "success": false,
+      "steps": 5600,
+      "final_distance": 0.335325,
+      "duration_seconds": 3.2
+    }
+  ],
+  "summary": {
+    "total_episodes": 20,
+    "successful_episodes": 0,
+    "success_rate": 0.0,
+    "avg_steps": 5600.0,
+    "avg_final_distance": 0.3353,
+    "min_steps": 5600,
+    "max_steps": 5600,
+    "end_time": "2026-06-26T18:44:13.632253"
+  }
+}
