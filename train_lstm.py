@@ -87,42 +87,49 @@ def add_stage_to_obs(obs: np.ndarray) -> np.ndarray:
 
 
 class SequenceDataset(Dataset):
-    """时序数据集 - 使用滑动窗口创建序列。"""
+    """时序数据集 - 使用滑动窗口创建序列（内存优化版）。"""
 
     def __init__(self, sequences: List[np.ndarray], actions: List[np.ndarray],
-                 seq_len: int = 32):
+                 seq_len: int = 32, max_samples: int = 500000):
         """
         Args:
-            sequences: 观测序列列表，每个元素形状为 (T, obs_dim)
-            actions: 动作序列列表，每个元素形状为 (T, act_dim)
+            sequences: 观测序列列表
+            actions: 动作序列列表
             seq_len: 序列长度
+            max_samples: 最大样本数（防止内存溢出）
         """
         self.seq_len = seq_len
-        self.data = []
-        self.labels = []
+        self.episode_ptrs = []  # (episode_idx, time_step) 的索引
+        self.sequences = sequences
+        self.actions = actions
 
-        for seq, act_seq in zip(sequences, actions):
-            # 为每个episode创建多个训练样本
+        # 创建索引而不是复制数据
+        total_samples = 0
+        for ep_idx, (seq, act_seq) in enumerate(zip(sequences, actions)):
             for t in range(seq_len, len(seq)):
-                # 输入：过去seq_len步的观测
-                window = seq[t-seq_len:t]
-                # 标签：当前步的动作
-                label = act_seq[t]
-                self.data.append(window)
-                self.labels.append(label)
+                if total_samples >= max_samples:
+                    break
+                self.episode_ptrs.append((ep_idx, t))
+                total_samples += 1
+            if total_samples >= max_samples:
+                break
 
-        self.data = np.array(self.data, dtype=np.float32)
-        self.labels = np.array(self.labels, dtype=np.float32)
-
-        print(f"  创建了 {len(self.data)} 个训练样本")
-        print(f"  输入形状: {self.data.shape}  (batch, seq_len, obs_dim)")
-        print(f"  标签形状: {self.labels.shape}  (batch, act_dim)")
+        print(f"  创建了 {len(self.episode_ptrs)} 个训练样本（最大限制: {max_samples}）")
+        print(f"  使用索引方式，节省内存")
 
     def __len__(self):
-        return len(self.data)
+        return len(self.episode_ptrs)
 
     def __getitem__(self, idx):
-        return self.data[idx], self.labels[idx]
+        ep_idx, t = self.episode_ptrs[idx]
+        seq = self.sequences[ep_idx]
+        act_seq = self.actions[ep_idx]
+
+        # 获取窗口和标签
+        window = seq[t-self.seq_len:t].copy()
+        label = act_seq[t].copy()
+
+        return window, label
 
 
 class LSTMModel(nn.Module):
@@ -185,8 +192,9 @@ def load_dataset_lstm(
     seq_len: int = 32,
     val_split: float = 0.1,
     seed: int = 42,
+    max_samples: int = 500000,
 ) -> Tuple[SequenceDataset, SequenceDataset]:
-    """加载数据并创建时序数据集。"""
+    """加载数据并创建时序数据集（内存优化版）。"""
     files = sorted(data_dir.glob("episode_*.npz"))
     if not files:
         raise FileNotFoundError(f"No episode_*.npz files found in {data_dir}")
@@ -196,7 +204,11 @@ def load_dataset_lstm(
     all_sequences = []
     all_actions = []
 
-    for f in files:
+    # 只加载部分数据以节省内存
+    max_episodes = min(len(files), 200)  # 最多使用200个episode
+    print(f"  使用前 {max_episodes} 个episode（节省内存）")
+
+    for f in files[:max_episodes]:
         d = np.load(f)
         obs = d["observations"]
         act = d["actions"]
@@ -212,8 +224,8 @@ def load_dataset_lstm(
 
     # 划分训练集和验证集
     rng = np.random.RandomState(seed)
-    indices = rng.permutation(len(files))
-    n_val = max(1, int(len(files) * val_split))
+    indices = rng.permutation(max_episodes)
+    n_val = max(1, int(max_episodes * val_split))
 
     train_indices = indices[n_val:]
     val_indices = indices[:n_val]
@@ -223,6 +235,7 @@ def load_dataset_lstm(
         [all_sequences[i] for i in train_indices],
         [all_actions[i] for i in train_indices],
         seq_len=seq_len,
+        max_samples=max_samples,
     )
 
     print(f"\n创建验证集...")
@@ -230,6 +243,7 @@ def load_dataset_lstm(
         [all_sequences[i] for i in val_indices],
         [all_actions[i] for i in val_indices],
         seq_len=seq_len,
+        max_samples=max_samples // 5,
     )
 
     return train_dataset, val_dataset
