@@ -14,9 +14,6 @@ checkpoints/
 *.pt
 *.pth
 
-# 日志文件
-*.log
-nohup.out
 
 # IDE
 .vscode/
