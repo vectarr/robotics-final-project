@@ -111,7 +111,7 @@ def load_model(model_path: Path, obs_dim: int, act_dim: int, device: str) -> tor
         torch.nn.Linear(256, 128),
         torch.nn.ReLU(),
         torch.nn.Linear(128, act_dim),
-        torch.nn.Sigmoid(),  # 输出在[0,1]范围内，适合夹爪动作
+        # 不使用Sigmoid，因为关节动作需要负值和大于1的值
     )
     model.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
     model.to(device)

@@ -178,7 +178,8 @@ def train_mlp(
         nn.Linear(256, 128),
         nn.ReLU(),
         nn.Linear(128, act_dim),
-        nn.Sigmoid(),  # 输出在[0,1]范围内，适合夹爪动作
+        # 不使用Sigmoid，因为关节动作需要负值和大于1的值
+        # 夹爪动作在推理时单独处理
     )
     model.to(device)
     model.train()
