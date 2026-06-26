@@ -2,56 +2,49 @@
 # A100服务器环境配置脚本（使用conda）
 # 服务器配置：4x NVIDIA A100-SXM4-40GB, CUDA 12.9
 
-set -e
-
 echo "=========================================="
 echo "  A100服务器环境配置"
 echo "=========================================="
 
-# 检查conda是否可用
-if ! command -v conda &> /dev/null; then
-    echo "错误: 未找到conda，请先安装Miniconda或Anaconda"
-    exit 1
-fi
-
 # 检查NVIDIA驱动
 echo ""
-echo "[1/6] 检查NVIDIA驱动..."
+echo "[1/5] 检查NVIDIA驱动..."
 nvidia-smi --query-gpu=name,driver_version,memory.total --format=csv,noheader
 
 # 创建conda环境
 echo ""
-echo "[2/6] 创建conda环境..."
-ENV_NAME="robotics_Imitation Learning"
+echo "[2/5] 创建conda环境..."
+ENV_NAME="robotics_final"
+
+# 如果环境已存在，先删除
+conda remove -n $ENV_NAME --all -y 2>/dev/null || true
+
+# 创建新环境
 conda create -n $ENV_NAME python=3.10 -y
+
 echo "环境 $ENV_NAME 创建完成"
 
-# 激活环境
+# 安装PyTorch（CUDA 12.4兼容版本）
 echo ""
-echo "[3/6] 激活环境..."
-source $(conda info --base)/etc/profile.d/conda.sh
-conda activate $ENV_NAME
-
-# 安装PyTorch（CUDA 12.9兼容版本）
-echo ""
-echo "[4/6] 安装PyTorch..."
+echo "[3/5] 安装PyTorch..."
+# 使用conda激活环境并安装
+source activate $ENV_NAME 2>/dev/null || conda activate $ENV_NAME 2>/dev/null
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
 # 安装其他依赖
 echo ""
-echo "[5/6] 安装其他依赖..."
+echo "[4/5] 安装其他依赖..."
 pip install numpy mujoco matplotlib
 
 # 验证安装
 echo ""
-echo "[6/6] 验证安装..."
+echo "[5/5] 验证安装..."
 python -c "import torch; print(f'PyTorch版本: {torch.__version__}')"
 python -c "import torch; print(f'CUDA可用: {torch.cuda.is_available()}')"
 python -c "import torch; print(f'GPU数量: {torch.cuda.device_count()}')"
 python -c "import torch; print(f'GPU名称: {torch.cuda.get_device_name(0) if torch.cuda.is_available() else \"N/A\"}')"
 python -c "import mujoco; print(f'MuJoCo版本: {mujoco.__version__}')"
 python -c "import numpy; print(f'NumPy版本: {numpy.__version__}')"
-python -c "import matplotlib; print(f'Matplotlib版本: {matplotlib.__version__}')"
 
 echo ""
 echo "=========================================="
