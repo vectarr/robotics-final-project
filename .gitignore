@@ -9,10 +9,6 @@ venv/
 
 
 
-# 模型文件
-checkpoints/
-*.pt
-*.pth
 
 
 # IDE
