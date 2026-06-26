@@ -40,7 +40,7 @@ class Logger:
 class IKModel(torch.nn.Module):
     """IK学习模型（与训练时一致）。"""
 
-    def __init__(self, input_dim: int = 8, output_dim: int = 4):
+    def __init__(self, input_dim: int = 9, output_dim: int = 4):
         super().__init__()
 
         self.model = torch.nn.Sequential(
@@ -74,16 +74,38 @@ def build_features(env: FrankaEnv) -> np.ndarray:
     q_current = env.arm_joint_positions  # (4,)
     ee_pos = env.endeffector_position   # (3,)
     blk_pos = env.block_position        # (3,)
+    tgt_pos = env.target_position       # (3,)
+    finger_open = float(np.mean(env.finger_joint_positions))
+    dist_ee_block = float(np.linalg.norm(ee_pos - blk_pos))
+
+    # 根据阶段确定目标位置
+    if dist_ee_block < 0.15 and finger_open < 0.02:
+        # LIFT + MOVE + PLACE阶段：目标是目标位置
+        target_pos = tgt_pos
+    else:
+        # APPROACH + DESCEND阶段：目标是方块位置
+        target_pos = blk_pos
 
     # 计算位置误差
-    pos_error = blk_pos - ee_pos  # (3,)
+    pos_error = target_pos - ee_pos  # (3,)
     dist_to_target = np.linalg.norm(pos_error)
 
-    # 特征：[q_current, pos_error, dist_to_target]
+    # 计算阶段
+    if dist_ee_block > 0.3:
+        phase = 0.0  # APPROACH
+    elif dist_ee_block > 0.15:
+        phase = 0.2  # DESCEND
+    elif finger_open < 0.02:
+        phase = 0.5  # GRASP + LIFT + MOVE
+    else:
+        phase = 0.8  # PLACE
+
+    # 特征：[q_current, pos_error, dist_to_target, phase]
     features = np.concatenate([
         q_current,
         pos_error,
         [dist_to_target],
+        [phase],
     ]).astype(np.float32)
 
     return features
@@ -183,7 +205,7 @@ def main() -> None:
     log_file = output_dir / "evaluate_ik_learning.log"
     sys.stdout = Logger(log_file)
 
-    input_dim = 8   # q_current(4) + pos_error(3) + dist(1)
+    input_dim = 9   # q_current(4) + pos_error(3) + dist(1) + phase(1)
     output_dim = 4  # dq (4)
 
     model = load_model(model_path, input_dim, output_dim, args.device)

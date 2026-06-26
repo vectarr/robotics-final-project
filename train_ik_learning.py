@@ -58,39 +58,53 @@ def compute_ik_targets(data_dir: Path) -> List[Tuple[np.ndarray, np.ndarray]]:
         obs = data["observations"]  # (T, 20)
         act = data["actions"]       # (T, 5)
 
-        # act[:, :4] 是关节目标位置（由IK控制器计算）
-        # 我们需要计算关节增量：dq = q_target - q_current
-        # 但训练数据中的q_current是什么？
-
-        # 实际上，训练数据中的obs[:, :4]是当前关节位置
-        # act[:, :4]是IK控制器计算的目标关节位置
-        # 所以关节增量 = act[:, :4] - obs[:, :4]
-
         q_current = obs[:, :4]   # 当前关节位置
         q_target = act[:, :4]    # IK计算的目标位置
         dq = q_target - q_current  # 关节增量
 
-        # 计算误差向量（末端到目标）
+        # 计算误差向量
         ee_pos = obs[:, 8:11]    # 末端位置
         blk_pos = obs[:, 11:14]  # 方块位置
         tgt_pos = obs[:, 14:17]  # 目标位置
+        finger_open = obs[:, 17]  # 夹爪开度
+        dist_ee_block = obs[:, 18]  # 到方块距离
 
-        # 在抓取阶段，目标是方块位置
-        # 在移动阶段，目标是目标位置
-        # 简化：始终以方块位置为目标（接近阶段）
-        target_pos = blk_pos
+        # 根据阶段确定目标位置
+        # 规则：距离<0.15且夹爪闭合时，目标是tgt_pos；否则是blk_pos
+        target_pos = np.zeros_like(ee_pos)
+        for i in range(len(obs)):
+            if dist_ee_block[i] < 0.15 and finger_open[i] < 0.02:
+                # LIFT + MOVE + PLACE阶段：目标是目标位置
+                target_pos[i] = tgt_pos[i]
+            else:
+                # APPROACH + DESCEND阶段：目标是方块位置
+                target_pos[i] = blk_pos[i]
 
         # 计算位置误差
         pos_error = target_pos - ee_pos  # (T, 3)
 
         # 构建输入特征
-        # [q_current, pos_error, dist_to_target]
+        # [q_current, pos_error, dist_to_target, phase]
         dist_to_target = np.linalg.norm(pos_error, axis=1, keepdims=True)
+
+        # 添加阶段信息
+        phase = np.zeros((len(obs), 1))
+        for i in range(len(obs)):
+            if dist_ee_block[i] > 0.3:
+                phase[i] = 0.0  # APPROACH
+            elif dist_ee_block[i] > 0.15:
+                phase[i] = 0.2  # DESCEND
+            elif finger_open[i] < 0.02:
+                phase[i] = 0.5  # GRASP + LIFT + MOVE
+            else:
+                phase[i] = 0.8  # PLACE
+
         features = np.concatenate([
             q_current,      # 4
             pos_error,      # 3
             dist_to_target, # 1
-        ], axis=1)  # (T, 8)
+            phase,          # 1
+        ], axis=1)  # (T, 9)
 
         for i in range(len(features)):
             all_samples.append((features[i], dq[i]))
@@ -122,7 +136,7 @@ class IKDataset(Dataset):
 class IKModel(nn.Module):
     """IK学习模型 - 预测关节增量。"""
 
-    def __init__(self, input_dim: int = 8, output_dim: int = 4):
+    def __init__(self, input_dim: int = 9, output_dim: int = 4):
         super().__init__()
 
         self.model = nn.Sequential(
