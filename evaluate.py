@@ -197,8 +197,8 @@ def main() -> None:
     parser.add_argument(
         "--max_steps",
         type=int,
-        default=3000,
-        help="Maximum steps per episode (default: 3000).",
+        default=5600,
+        help="Maximum steps per episode (default: 5600).",
     )
     parser.add_argument(
         "--seed",
