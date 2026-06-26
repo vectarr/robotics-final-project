@@ -1,0 +1,4024 @@
+Log file: /home/ehpc/data/robot_project/robotics-final-project/data/20260626_005525/collect.log
+Output directory: /home/ehpc/data/robot_project/robotics-final-project/data/20260626_005525
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [   1/500] ✓  steps=5600  success=1  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [   2/500] ✓  steps=5600  success=2  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [   3/500] ✓  steps=5600  success=3  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [   4/500] ✓  steps=5600  success=4  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [   5/500] ✓  steps=5600  success=5  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [   6/500] ✓  steps=5600  success=6  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [   7/500] ✓  steps=5600  success=7  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [   8/500] ✓  steps=5600  success=8  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [   9/500] ✓  steps=5600  success=9  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  10/500] ✓  steps=5600  success=10  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  11/500] ✓  steps=5600  success=11  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  12/500] ✓  steps=5600  success=12  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  13/500] ✓  steps=5600  success=13  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  14/500] ✓  steps=5600  success=14  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  15/500] ✓  steps=5600  success=15  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  16/500] ✓  steps=5600  success=16  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  17/500] ✓  steps=5600  success=17  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  18/500] ✓  steps=5600  success=18  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  19/500] ✓  steps=5600  success=19  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  20/500] ✓  steps=5600  success=20  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  21/500] ✓  steps=5600  success=21  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  22/500] ✓  steps=5600  success=22  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  23/500] ✓  steps=5600  success=23  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  24/500] ✓  steps=5600  success=24  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  25/500] ✓  steps=5600  success=25  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  26/500] ✓  steps=5600  success=26  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  27/500] ✓  steps=5600  success=27  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  28/500] ✓  steps=5600  success=28  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  29/500] ✓  steps=5600  success=29  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  30/500] ✓  steps=5600  success=30  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  31/500] ✓  steps=5600  success=31  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  32/500] ✓  steps=5600  success=32  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  33/500] ✓  steps=5600  success=33  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  34/500] ✓  steps=5600  success=34  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  35/500] ✓  steps=5600  success=35  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  36/500] ✓  steps=5600  success=36  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  37/500] ✓  steps=5600  success=37  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  38/500] ✓  steps=5600  success=38  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  39/500] ✓  steps=5600  success=39  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  40/500] ✓  steps=5600  success=40  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  41/500] ✓  steps=5600  success=41  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  42/500] ✓  steps=5600  success=42  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  43/500] ✓  steps=5600  success=43  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  44/500] ✓  steps=5600  success=44  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  45/500] ✓  steps=5600  success=45  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  46/500] ✓  steps=5600  success=46  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  47/500] ✓  steps=5600  success=47  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  48/500] ✓  steps=5600  success=48  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  49/500] ✓  steps=5600  success=49  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  50/500] ✓  steps=5600  success=50  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  51/500] ✓  steps=5600  success=51  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  52/500] ✓  steps=5600  success=52  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  53/500] ✓  steps=5600  success=53  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  54/500] ✓  steps=5600  success=54  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  55/500] ✓  steps=5600  success=55  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  56/500] ✓  steps=5600  success=56  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  57/500] ✓  steps=5600  success=57  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  58/500] ✓  steps=5600  success=58  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  59/500] ✓  steps=5600  success=59  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  60/500] ✓  steps=5600  success=60  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  61/500] ✓  steps=5600  success=61  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  62/500] ✓  steps=5600  success=62  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  63/500] ✓  steps=5600  success=63  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  64/500] ✓  steps=5600  success=64  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  65/500] ✓  steps=5600  success=65  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  66/500] ✓  steps=5600  success=66  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  67/500] ✓  steps=5600  success=67  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  68/500] ✓  steps=5600  success=68  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  69/500] ✓  steps=5600  success=69  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  70/500] ✓  steps=5600  success=70  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  71/500] ✓  steps=5600  success=71  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  72/500] ✓  steps=5600  success=72  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  73/500] ✓  steps=5600  success=73  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  74/500] ✓  steps=5600  success=74  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  75/500] ✓  steps=5600  success=75  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  76/500] ✓  steps=5600  success=76  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  77/500] ✓  steps=5600  success=77  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  78/500] ✓  steps=5600  success=78  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  79/500] ✓  steps=5600  success=79  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  80/500] ✓  steps=5600  success=80  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  81/500] ✓  steps=5600  success=81  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  82/500] ✓  steps=5600  success=82  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  83/500] ✓  steps=5600  success=83  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  84/500] ✓  steps=5600  success=84  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  85/500] ✓  steps=5600  success=85  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  86/500] ✓  steps=5600  success=86  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  87/500] ✓  steps=5600  success=87  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  88/500] ✓  steps=5600  success=88  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  89/500] ✓  steps=5600  success=89  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  90/500] ✓  steps=5600  success=90  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  91/500] ✓  steps=5600  success=91  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  92/500] ✓  steps=5600  success=92  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  93/500] ✓  steps=5600  success=93  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  94/500] ✓  steps=5600  success=94  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  95/500] ✓  steps=5600  success=95  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  96/500] ✓  steps=5600  success=96  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  97/500] ✓  steps=5600  success=97  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  98/500] ✓  steps=5600  success=98  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [  99/500] ✓  steps=5600  success=99  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 100/500] ✓  steps=5600  success=100  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 101/500] ✓  steps=5600  success=101  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 102/500] ✓  steps=5600  success=102  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 103/500] ✓  steps=5600  success=103  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 104/500] ✓  steps=5600  success=104  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 105/500] ✓  steps=5600  success=105  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 106/500] ✓  steps=5600  success=106  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 107/500] ✓  steps=5600  success=107  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 108/500] ✓  steps=5600  success=108  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 109/500] ✓  steps=5600  success=109  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 110/500] ✓  steps=5600  success=110  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 111/500] ✓  steps=5600  success=111  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 112/500] ✓  steps=5600  success=112  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 113/500] ✓  steps=5600  success=113  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 114/500] ✓  steps=5600  success=114  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 115/500] ✓  steps=5600  success=115  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 116/500] ✓  steps=5600  success=116  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 117/500] ✓  steps=5600  success=117  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 118/500] ✓  steps=5600  success=118  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 119/500] ✓  steps=5600  success=119  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 120/500] ✓  steps=5600  success=120  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 121/500] ✓  steps=5600  success=121  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 122/500] ✓  steps=5600  success=122  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 123/500] ✓  steps=5600  success=123  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 124/500] ✓  steps=5600  success=124  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 125/500] ✓  steps=5600  success=125  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 126/500] ✓  steps=5600  success=126  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 127/500] ✓  steps=5600  success=127  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 128/500] ✓  steps=5600  success=128  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 129/500] ✓  steps=5600  success=129  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 130/500] ✓  steps=5600  success=130  fail=0  0.6 ep/s  time=1.3s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 131/500] ✓  steps=5600  success=131  fail=0  0.6 ep/s  time=1.8s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 132/500] ✓  steps=5600  success=132  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 133/500] ✓  steps=5600  success=133  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 134/500] ✓  steps=5600  success=134  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 135/500] ✓  steps=5600  success=135  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 136/500] ✓  steps=5600  success=136  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 137/500] ✓  steps=5600  success=137  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 138/500] ✓  steps=5600  success=138  fail=0  0.6 ep/s  time=1.7s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 139/500] ✓  steps=5600  success=139  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 140/500] ✓  steps=5600  success=140  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 141/500] ✓  steps=5600  success=141  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 142/500] ✓  steps=5600  success=142  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 143/500] ✓  steps=5600  success=143  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 144/500] ✓  steps=5600  success=144  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 145/500] ✓  steps=5600  success=145  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 146/500] ✓  steps=5600  success=146  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 147/500] ✓  steps=5600  success=147  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 148/500] ✓  steps=5600  success=148  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 149/500] ✓  steps=5600  success=149  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 150/500] ✓  steps=5600  success=150  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 151/500] ✓  steps=5600  success=151  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 152/500] ✓  steps=5600  success=152  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 153/500] ✓  steps=5600  success=153  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 154/500] ✓  steps=5600  success=154  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 155/500] ✓  steps=5600  success=155  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 156/500] ✓  steps=5600  success=156  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 157/500] ✓  steps=5600  success=157  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 158/500] ✓  steps=5600  success=158  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 159/500] ✓  steps=5600  success=159  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 160/500] ✓  steps=5600  success=160  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 161/500] ✓  steps=5600  success=161  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 162/500] ✓  steps=5600  success=162  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 163/500] ✓  steps=5600  success=163  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 164/500] ✓  steps=5600  success=164  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 165/500] ✓  steps=5600  success=165  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 166/500] ✓  steps=5600  success=166  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 167/500] ✓  steps=5600  success=167  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 168/500] ✓  steps=5600  success=168  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 169/500] ✓  steps=5600  success=169  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 170/500] ✓  steps=5600  success=170  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 171/500] ✓  steps=5600  success=171  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 172/500] ✓  steps=5600  success=172  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 173/500] ✓  steps=5600  success=173  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 174/500] ✓  steps=5600  success=174  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 175/500] ✓  steps=5600  success=175  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 176/500] ✓  steps=5600  success=176  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 177/500] ✓  steps=5600  success=177  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 178/500] ✓  steps=5600  success=178  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 179/500] ✓  steps=5600  success=179  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 180/500] ✓  steps=5600  success=180  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 181/500] ✓  steps=5600  success=181  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 182/500] ✓  steps=5600  success=182  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 183/500] ✓  steps=5600  success=183  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 184/500] ✓  steps=5600  success=184  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 185/500] ✓  steps=5600  success=185  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 186/500] ✓  steps=5600  success=186  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 187/500] ✓  steps=5600  success=187  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 188/500] ✓  steps=5600  success=188  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 189/500] ✓  steps=5600  success=189  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 190/500] ✓  steps=5600  success=190  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 191/500] ✓  steps=5600  success=191  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 192/500] ✓  steps=5600  success=192  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 193/500] ✓  steps=5600  success=193  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 194/500] ✓  steps=5600  success=194  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 195/500] ✓  steps=5600  success=195  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 196/500] ✓  steps=5600  success=196  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 197/500] ✓  steps=5600  success=197  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 198/500] ✓  steps=5600  success=198  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 199/500] ✓  steps=5600  success=199  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 200/500] ✓  steps=5600  success=200  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 201/500] ✓  steps=5600  success=201  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 202/500] ✓  steps=5600  success=202  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 203/500] ✓  steps=5600  success=203  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 204/500] ✓  steps=5600  success=204  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 205/500] ✓  steps=5600  success=205  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 206/500] ✓  steps=5600  success=206  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 207/500] ✓  steps=5600  success=207  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 208/500] ✓  steps=5600  success=208  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 209/500] ✓  steps=5600  success=209  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 210/500] ✓  steps=5600  success=210  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 211/500] ✓  steps=5600  success=211  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 212/500] ✓  steps=5600  success=212  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 213/500] ✓  steps=5600  success=213  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 214/500] ✓  steps=5600  success=214  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 215/500] ✓  steps=5600  success=215  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 216/500] ✓  steps=5600  success=216  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 217/500] ✓  steps=5600  success=217  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 218/500] ✓  steps=5600  success=218  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 219/500] ✓  steps=5600  success=219  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 220/500] ✓  steps=5600  success=220  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 221/500] ✓  steps=5600  success=221  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 222/500] ✓  steps=5600  success=222  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 223/500] ✓  steps=5600  success=223  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 224/500] ✓  steps=5600  success=224  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 225/500] ✓  steps=5600  success=225  fail=0  0.6 ep/s  time=1.3s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 226/500] ✓  steps=5600  success=226  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 227/500] ✓  steps=5600  success=227  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 228/500] ✓  steps=5600  success=228  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 229/500] ✓  steps=5600  success=229  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 230/500] ✓  steps=5600  success=230  fail=0  0.6 ep/s  time=1.7s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 231/500] ✓  steps=5600  success=231  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 232/500] ✓  steps=5600  success=232  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 233/500] ✓  steps=5600  success=233  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 234/500] ✓  steps=5600  success=234  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 235/500] ✓  steps=5600  success=235  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 236/500] ✓  steps=5600  success=236  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 237/500] ✓  steps=5600  success=237  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 238/500] ✓  steps=5600  success=238  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 239/500] ✓  steps=5600  success=239  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 240/500] ✓  steps=5600  success=240  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 241/500] ✓  steps=5600  success=241  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 242/500] ✓  steps=5600  success=242  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 243/500] ✓  steps=5600  success=243  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 244/500] ✓  steps=5600  success=244  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 245/500] ✓  steps=5600  success=245  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 246/500] ✓  steps=5600  success=246  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 247/500] ✓  steps=5600  success=247  fail=0  0.6 ep/s  time=1.7s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 248/500] ✓  steps=5600  success=248  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 249/500] ✓  steps=5600  success=249  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 250/500] ✓  steps=5600  success=250  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 251/500] ✓  steps=5600  success=251  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 252/500] ✓  steps=5600  success=252  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 253/500] ✓  steps=5600  success=253  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 254/500] ✓  steps=5600  success=254  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 255/500] ✓  steps=5600  success=255  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 256/500] ✓  steps=5600  success=256  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 257/500] ✓  steps=5600  success=257  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 258/500] ✓  steps=5600  success=258  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 259/500] ✓  steps=5600  success=259  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 260/500] ✓  steps=5600  success=260  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 261/500] ✓  steps=5600  success=261  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 262/500] ✓  steps=5600  success=262  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 263/500] ✓  steps=5600  success=263  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 264/500] ✓  steps=5600  success=264  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 265/500] ✓  steps=5600  success=265  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 266/500] ✓  steps=5600  success=266  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 267/500] ✓  steps=5600  success=267  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 268/500] ✓  steps=5600  success=268  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 269/500] ✓  steps=5600  success=269  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 270/500] ✓  steps=5600  success=270  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 271/500] ✓  steps=5600  success=271  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 272/500] ✓  steps=5600  success=272  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 273/500] ✓  steps=5600  success=273  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 274/500] ✓  steps=5600  success=274  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 275/500] ✓  steps=5600  success=275  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 276/500] ✓  steps=5600  success=276  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 277/500] ✓  steps=5600  success=277  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 278/500] ✓  steps=5600  success=278  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 279/500] ✓  steps=5600  success=279  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 280/500] ✓  steps=5600  success=280  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 281/500] ✓  steps=5600  success=281  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 282/500] ✓  steps=5600  success=282  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 283/500] ✓  steps=5600  success=283  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 284/500] ✓  steps=5600  success=284  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 285/500] ✓  steps=5600  success=285  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 286/500] ✓  steps=5600  success=286  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 287/500] ✓  steps=5600  success=287  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 288/500] ✓  steps=5600  success=288  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 289/500] ✓  steps=5600  success=289  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 290/500] ✓  steps=5600  success=290  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 291/500] ✓  steps=5600  success=291  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 292/500] ✓  steps=5600  success=292  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 293/500] ✓  steps=5600  success=293  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 294/500] ✓  steps=5600  success=294  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 295/500] ✓  steps=5600  success=295  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 296/500] ✓  steps=5600  success=296  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 297/500] ✓  steps=5600  success=297  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 298/500] ✓  steps=5600  success=298  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 299/500] ✓  steps=5600  success=299  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 300/500] ✓  steps=5600  success=300  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 301/500] ✓  steps=5600  success=301  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 302/500] ✓  steps=5600  success=302  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 303/500] ✓  steps=5600  success=303  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 304/500] ✓  steps=5600  success=304  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 305/500] ✓  steps=5600  success=305  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 306/500] ✓  steps=5600  success=306  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 307/500] ✓  steps=5600  success=307  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 308/500] ✓  steps=5600  success=308  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 309/500] ✓  steps=5600  success=309  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 310/500] ✓  steps=5600  success=310  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 311/500] ✓  steps=5600  success=311  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 312/500] ✓  steps=5600  success=312  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 313/500] ✓  steps=5600  success=313  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 314/500] ✓  steps=5600  success=314  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 315/500] ✓  steps=5600  success=315  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 316/500] ✓  steps=5600  success=316  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 317/500] ✓  steps=5600  success=317  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 318/500] ✓  steps=5600  success=318  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 319/500] ✓  steps=5600  success=319  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 320/500] ✓  steps=5600  success=320  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 321/500] ✓  steps=5600  success=321  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 322/500] ✓  steps=5600  success=322  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 323/500] ✓  steps=5600  success=323  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 324/500] ✓  steps=5600  success=324  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 325/500] ✓  steps=5600  success=325  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 326/500] ✓  steps=5600  success=326  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 327/500] ✓  steps=5600  success=327  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 328/500] ✓  steps=5600  success=328  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 329/500] ✓  steps=5600  success=329  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 330/500] ✓  steps=5600  success=330  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 331/500] ✓  steps=5600  success=331  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 332/500] ✓  steps=5600  success=332  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 333/500] ✓  steps=5600  success=333  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 334/500] ✓  steps=5600  success=334  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 335/500] ✓  steps=5600  success=335  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 336/500] ✓  steps=5600  success=336  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 337/500] ✓  steps=5600  success=337  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 338/500] ✓  steps=5600  success=338  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 339/500] ✓  steps=5600  success=339  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 340/500] ✓  steps=5600  success=340  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 341/500] ✓  steps=5600  success=341  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 342/500] ✓  steps=5600  success=342  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 343/500] ✓  steps=5600  success=343  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 344/500] ✓  steps=5600  success=344  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 345/500] ✓  steps=5600  success=345  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 346/500] ✓  steps=5600  success=346  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 347/500] ✓  steps=5600  success=347  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 348/500] ✓  steps=5600  success=348  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 349/500] ✓  steps=5600  success=349  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 350/500] ✓  steps=5600  success=350  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 351/500] ✓  steps=5600  success=351  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 352/500] ✓  steps=5600  success=352  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 353/500] ✓  steps=5600  success=353  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 354/500] ✓  steps=5600  success=354  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 355/500] ✓  steps=5600  success=355  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 356/500] ✓  steps=5600  success=356  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 357/500] ✓  steps=5600  success=357  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 358/500] ✓  steps=5600  success=358  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 359/500] ✓  steps=5600  success=359  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 360/500] ✓  steps=5600  success=360  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 361/500] ✓  steps=5600  success=361  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 362/500] ✓  steps=5600  success=362  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 363/500] ✓  steps=5600  success=363  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 364/500] ✓  steps=5600  success=364  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 365/500] ✓  steps=5600  success=365  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 366/500] ✓  steps=5600  success=366  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 367/500] ✓  steps=5600  success=367  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 368/500] ✓  steps=5600  success=368  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 369/500] ✓  steps=5600  success=369  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 370/500] ✓  steps=5600  success=370  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 371/500] ✓  steps=5600  success=371  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 372/500] ✓  steps=5600  success=372  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 373/500] ✓  steps=5600  success=373  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 374/500] ✓  steps=5600  success=374  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 375/500] ✓  steps=5600  success=375  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 376/500] ✓  steps=5600  success=376  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 377/500] ✓  steps=5600  success=377  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 378/500] ✓  steps=5600  success=378  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 379/500] ✓  steps=5600  success=379  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 380/500] ✓  steps=5600  success=380  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 381/500] ✓  steps=5600  success=381  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 382/500] ✓  steps=5600  success=382  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 383/500] ✓  steps=5600  success=383  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 384/500] ✓  steps=5600  success=384  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 385/500] ✓  steps=5600  success=385  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 386/500] ✓  steps=5600  success=386  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 387/500] ✓  steps=5600  success=387  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 388/500] ✓  steps=5600  success=388  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 389/500] ✓  steps=5600  success=389  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 390/500] ✓  steps=5600  success=390  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 391/500] ✓  steps=5600  success=391  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 392/500] ✓  steps=5600  success=392  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 393/500] ✓  steps=5600  success=393  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 394/500] ✓  steps=5600  success=394  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 395/500] ✓  steps=5600  success=395  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 396/500] ✓  steps=5600  success=396  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 397/500] ✓  steps=5600  success=397  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 398/500] ✓  steps=5600  success=398  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 399/500] ✓  steps=5600  success=399  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 400/500] ✓  steps=5600  success=400  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 401/500] ✓  steps=5600  success=401  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 402/500] ✓  steps=5600  success=402  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 403/500] ✓  steps=5600  success=403  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 404/500] ✓  steps=5600  success=404  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 405/500] ✓  steps=5600  success=405  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 406/500] ✓  steps=5600  success=406  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 407/500] ✓  steps=5600  success=407  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 408/500] ✓  steps=5600  success=408  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 409/500] ✓  steps=5600  success=409  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 410/500] ✓  steps=5600  success=410  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 411/500] ✓  steps=5600  success=411  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 412/500] ✓  steps=5600  success=412  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 413/500] ✓  steps=5600  success=413  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 414/500] ✓  steps=5600  success=414  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 415/500] ✓  steps=5600  success=415  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 416/500] ✓  steps=5600  success=416  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 417/500] ✓  steps=5600  success=417  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 418/500] ✓  steps=5600  success=418  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 419/500] ✓  steps=5600  success=419  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 420/500] ✓  steps=5600  success=420  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 421/500] ✓  steps=5600  success=421  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 422/500] ✓  steps=5600  success=422  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 423/500] ✓  steps=5600  success=423  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 424/500] ✓  steps=5600  success=424  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 425/500] ✓  steps=5600  success=425  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 426/500] ✓  steps=5600  success=426  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 427/500] ✓  steps=5600  success=427  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 428/500] ✓  steps=5600  success=428  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 429/500] ✓  steps=5600  success=429  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 430/500] ✓  steps=5600  success=430  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 431/500] ✓  steps=5600  success=431  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 432/500] ✓  steps=5600  success=432  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 433/500] ✓  steps=5600  success=433  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 434/500] ✓  steps=5600  success=434  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 435/500] ✓  steps=5600  success=435  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 436/500] ✓  steps=5600  success=436  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 437/500] ✓  steps=5600  success=437  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 438/500] ✓  steps=5600  success=438  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 439/500] ✓  steps=5600  success=439  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 440/500] ✓  steps=5600  success=440  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 441/500] ✓  steps=5600  success=441  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 442/500] ✓  steps=5600  success=442  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 443/500] ✓  steps=5600  success=443  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 444/500] ✓  steps=5600  success=444  fail=0  0.6 ep/s  time=1.6s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 445/500] ✓  steps=5600  success=445  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 446/500] ✓  steps=5600  success=446  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 447/500] ✓  steps=5600  success=447  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 448/500] ✓  steps=5600  success=448  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 449/500] ✓  steps=5600  success=449  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 450/500] ✓  steps=5600  success=450  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 451/500] ✓  steps=5600  success=451  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 452/500] ✓  steps=5600  success=452  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 453/500] ✓  steps=5600  success=453  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 454/500] ✓  steps=5600  success=454  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 455/500] ✓  steps=5600  success=455  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 456/500] ✓  steps=5600  success=456  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 457/500] ✓  steps=5600  success=457  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 458/500] ✓  steps=5600  success=458  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 459/500] ✓  steps=5600  success=459  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 460/500] ✓  steps=5600  success=460  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 461/500] ✓  steps=5600  success=461  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 462/500] ✓  steps=5600  success=462  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 463/500] ✓  steps=5600  success=463  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 464/500] ✓  steps=5600  success=464  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 465/500] ✓  steps=5600  success=465  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 466/500] ✓  steps=5600  success=466  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 467/500] ✓  steps=5600  success=467  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 468/500] ✓  steps=5600  success=468  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 469/500] ✓  steps=5600  success=469  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 470/500] ✓  steps=5600  success=470  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 471/500] ✓  steps=5600  success=471  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 472/500] ✓  steps=5600  success=472  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 473/500] ✓  steps=5600  success=473  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 474/500] ✓  steps=5600  success=474  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 475/500] ✓  steps=5600  success=475  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 476/500] ✓  steps=5600  success=476  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 477/500] ✓  steps=5600  success=477  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 478/500] ✓  steps=5600  success=478  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 479/500] ✓  steps=5600  success=479  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 480/500] ✓  steps=5600  success=480  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 481/500] ✓  steps=5600  success=481  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 482/500] ✓  steps=5600  success=482  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 483/500] ✓  steps=5600  success=483  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 484/500] ✓  steps=5600  success=484  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 485/500] ✓  steps=5600  success=485  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 486/500] ✓  steps=5600  success=486  fail=0  0.6 ep/s  time=1.4s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 487/500] ✓  steps=5600  success=487  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 488/500] ✓  steps=5600  success=488  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 489/500] ✓  steps=5600  success=489  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 490/500] ✓  steps=5600  success=490  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 491/500] ✓  steps=5600  success=491  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 492/500] ✓  steps=5600  success=492  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 493/500] ✓  steps=5600  success=493  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 494/500] ✓  steps=5600  success=494  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 495/500] ✓  steps=5600  success=495  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 496/500] ✓  steps=5600  success=496  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 497/500] ✓  steps=5600  success=497  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 498/500] ✓  steps=5600  success=498  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 499/500] ✓  steps=5600  success=499  fail=0  0.6 ep/s  time=1.5s
+  [ 799] → DESCEND
+  [1599] → GRASP
+  [2199] → LIFT
+  [2999] → MOVE
+  [4499] → PLACE
+  [5099] → RETREAT
+  [5599] → DONE
+  [ 500/500] ✓  steps=5600  success=500  fail=0  0.6 ep/s  time=1.5s
+实验数据已保存到: /home/ehpc/data/robot_project/robotics-final-project/data/20260626_005525/experiment_data.json
+统计数据已保存到: /home/ehpc/data/robot_project/robotics-final-project/data/20260626_005525/episode_statistics.json
+
+============================================================
+  Collection complete
+  ─────────────────
+  Episodes requested:  500
+  Successful:          500
+  Failed (timeout):    0
+  Total steps:         2800000
+  Avg steps/episode:   5600
+  Wall-clock time:     795.4 s
+  Episodes/second:     0.63
+  Output directory:    /home/ehpc/data/robot_project/robotics-final-project/data/20260626_005525
+============================================================
+
+生成的文件:
+  - collect.log: 完整的运行日志
+  - experiment_data.json: 详细的实验数据
+  - episode_statistics.json: 统计数据（用于绘图）
+  - metadata.npz: 元数据
+  - episode_*.npz: 每个episode的数据
