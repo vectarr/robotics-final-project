@@ -398,8 +398,8 @@ def main() -> None:
     )
 
     # 获取维度
-    obs_dim = train_dataset.data.shape[2]  # (batch, seq_len, obs_dim)
-    act_dim = train_dataset.labels.shape[1]
+    obs_dim = 21  # 原始20 + 阶段1
+    act_dim = 5
 
     print(f"\n训练配置:")
     print(f"  数据目录: {data_dir}")
