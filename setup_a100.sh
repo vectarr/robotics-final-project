@@ -22,7 +22,7 @@ nvidia-smi --query-gpu=name,driver_version,memory.total --format=csv,noheader
 # 创建conda环境
 echo ""
 echo "[2/6] 创建conda环境..."
-ENV_NAME="robotics_final"
+ENV_NAME="robotics_Imitation Learning"
 conda create -n $ENV_NAME python=3.10 -y
 echo "环境 $ENV_NAME 创建完成"
 
