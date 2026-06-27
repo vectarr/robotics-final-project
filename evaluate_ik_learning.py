@@ -123,9 +123,11 @@ def evaluate_one_episode(
 
     success = False
     steps = 0
-    q_current = env.arm_joint_positions.copy()
 
     for step in range(max_steps):
+        # 从环境读取当前实际关节位置
+        q_current = env.arm_joint_positions.copy()
+
         # 构建特征
         features = build_features(env)
         features_tensor = torch.from_numpy(features).unsqueeze(0).to(device)
@@ -134,7 +136,7 @@ def evaluate_one_episode(
         with torch.no_grad():
             dq = model(features_tensor).squeeze(0).cpu().numpy()
 
-        # 更新关节目标
+        # 计算关节目标
         q_target = q_current + dq
 
         # 关节限制
@@ -160,9 +162,6 @@ def evaluate_one_episode(
 
         # 执行
         env.step()
-
-        # 更新当前关节位置
-        q_current = q_target.copy()
 
         # 检查成功
         finger_open = float(np.mean(env.finger_joint_positions))
