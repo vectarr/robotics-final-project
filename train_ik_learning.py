@@ -95,7 +95,11 @@ def compute_ik_targets(data_dir: Path) -> List[Tuple[np.ndarray, np.ndarray]]:
             elif dist_ee_block[i] > 0.15:
                 phase[i] = 0.2  # DESCEND
             elif finger_open[i] < 0.02:
-                phase[i] = 0.5  # GRASP + LIFT + MOVE
+                # 根据z坐标区分LIFT和MOVE
+                if ee_pos[i, 2] < 0.35:
+                    phase[i] = 0.4  # GRASP + LIFT (z较低)
+                else:
+                    phase[i] = 0.6  # MOVE (z较高)
             else:
                 phase[i] = 0.8  # PLACE
 

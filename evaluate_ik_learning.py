@@ -96,7 +96,11 @@ def build_features(env: FrankaEnv) -> np.ndarray:
     elif dist_ee_block > 0.15:
         phase = 0.2  # DESCEND
     elif finger_open < 0.02:
-        phase = 0.5  # GRASP + LIFT + MOVE
+        # 根据z坐标区分LIFT和MOVE
+        if ee_pos[2] < 0.35:
+            phase = 0.4  # GRASP + LIFT (z较低)
+        else:
+            phase = 0.6  # MOVE (z较高)
     else:
         phase = 0.8  # PLACE
 
