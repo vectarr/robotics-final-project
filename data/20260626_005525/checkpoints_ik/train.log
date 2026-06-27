@@ -6,7 +6,7 @@ IK学习训练 - 直接学习Jacobian计算
 
 创建训练集...
   样本数量: 1008000
-  输入维度: 8
+  输入维度: 9
   输出维度: 4
   目标范围: [-0.0200, 0.0200]
   目标均值: [-0.00462288  0.00357204  0.00250156  0.00430059]
@@ -14,7 +14,7 @@ IK学习训练 - 直接学习Jacobian计算
 
 创建验证集...
   样本数量: 112000
-  输入维度: 8
+  输入维度: 9
   输出维度: 4
   目标范围: [-0.0200, 0.0200]
   目标均值: [-0.00460145  0.00359307  0.00242424  0.00428267]
@@ -24,7 +24,7 @@ IK学习训练 - 直接学习Jacobian计算
   数据目录: data/20260626_005525
   输出目录: data/20260626_005525/checkpoints_ik
   Epochs: 200
-  Batch size: 256
+  Batch size: 25
   学习率: 0.001
   设备: cuda
 
@@ -33,30 +33,30 @@ IK学习训练 - 直接学习Jacobian计算
 ============================================================
 
 模型结构:
-  输入维度: 8
+  输入维度: 9
   输出维度: 4
   设备: cuda
-  epoch    1/200  train_loss=0.00007584  val_loss=0.00005181  14.0s
-  epoch   10/200  train_loss=0.00002091  val_loss=0.00002065  138.5s
-  epoch   20/200  train_loss=0.00001598  val_loss=0.00001456  276.4s
-  epoch   30/200  train_loss=0.00001421  val_loss=0.00001457  405.6s
-  epoch   40/200  train_loss=0.00001289  val_loss=0.00001228  529.8s
-  epoch   50/200  train_loss=0.00001182  val_loss=0.00001191  657.6s
-  epoch   60/200  train_loss=0.00001111  val_loss=0.00001025  784.0s
-  epoch   70/200  train_loss=0.00001033  val_loss=0.00000912  909.2s
-  epoch   80/200  train_loss=0.00000990  val_loss=0.00000938  1032.4s
-  epoch   90/200  train_loss=0.00000928  val_loss=0.00001001  1154.2s
-  epoch  100/200  train_loss=0.00000877  val_loss=0.00000839  1279.0s
-  epoch  110/200  train_loss=0.00000833  val_loss=0.00000792  1404.7s
-  epoch  120/200  train_loss=0.00000787  val_loss=0.00000825  1532.1s
-  epoch  130/200  train_loss=0.00000740  val_loss=0.00000733  1657.3s
-  epoch  140/200  train_loss=0.00000703  val_loss=0.00000694  1780.4s
-  epoch  150/200  train_loss=0.00000665  val_loss=0.00000654  1903.2s
-  epoch  160/200  train_loss=0.00000632  val_loss=0.00000636  2024.2s
-  epoch  170/200  train_loss=0.00000611  val_loss=0.00000648  2148.2s
-  epoch  180/200  train_loss=0.00000593  val_loss=0.00000602  2276.9s
-  epoch  190/200  train_loss=0.00000582  val_loss=0.00000594  2396.3s
-  epoch  200/200  train_loss=0.00000578  val_loss=0.00000592  2521.6s
+  epoch    1/200  train_loss=0.00004573  val_loss=0.00002827  91.8s
+  epoch   10/200  train_loss=0.00001616  val_loss=0.00001743  905.7s
+  epoch   20/200  train_loss=0.00001266  val_loss=0.00001532  1779.9s
+  epoch   30/200  train_loss=0.00001152  val_loss=0.00001169  2616.5s
+  epoch   40/200  train_loss=0.00001061  val_loss=0.00000976  3486.3s
+  epoch   50/200  train_loss=0.00000996  val_loss=0.00000901  4310.3s
+  epoch   60/200  train_loss=0.00000942  val_loss=0.00001054  5089.1s
+  epoch   70/200  train_loss=0.00000901  val_loss=0.00000856  5933.6s
+  epoch   80/200  train_loss=0.00000850  val_loss=0.00000856  6744.0s
+  epoch   90/200  train_loss=0.00000806  val_loss=0.00001118  7547.1s
+  epoch  100/200  train_loss=0.00000765  val_loss=0.00000803  8384.0s
+  epoch  110/200  train_loss=0.00000721  val_loss=0.00000823  9230.4s
+  epoch  120/200  train_loss=0.00000680  val_loss=0.00000886  10107.9s
+  epoch  130/200  train_loss=0.00000634  val_loss=0.00000713  10986.1s
+  epoch  140/200  train_loss=0.00000585  val_loss=0.00000598  11902.8s
+  epoch  150/200  train_loss=0.00000541  val_loss=0.00000580  12761.4s
+  epoch  160/200  train_loss=0.00000502  val_loss=0.00000557  13601.3s
+  epoch  170/200  train_loss=0.00000470  val_loss=0.00000487  14431.1s
+  epoch  180/200  train_loss=0.00000445  val_loss=0.00000483  15300.6s
+  epoch  190/200  train_loss=0.00000432  val_loss=0.00000462  16128.2s
+  epoch  200/200  train_loss=0.00000426  val_loss=0.00000459  16925.7s
 
 训练完成！
 模型保存在: data/20260626_005525/checkpoints_ik/model_best.pt
